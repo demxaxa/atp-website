@@ -1,0 +1,310 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------------------ */
+/* Main Styling */
+/* ------------------------------------------ */
+html, body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.7em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* ------------------------------------------ */
+/* Utilities */
+/* ------------------------------------------ */
+.container {
+    max-width: 1140px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: auto;
+    /* color */
+}
+
+.btn {
+    background-color: #00aeef;
+    padding: 15px 20px;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    /* important */
+    display: inline-block; 
+}
+
+.btn:hover {
+    background: #0089bc;
+    color: white;
+}   
+
+.btn-light {
+    background-color: white;
+    color: #0089bc;
+}
+
+.btn-light:hover {
+    background: #00aeef;
+    color: white;
+}
+
+.bg-dark {
+    background: #0089bc;
+    color: white;
+}
+
+.bg-light {
+   background: #00aeef;
+   color: black;
+}
+
+.clr {
+    clear: both;
+}
+/* Padding */
+.py-1 { padding: 10px 0;}
+.py-1 { padding: 20px 0;}
+.py-1 { padding: 30px 0;}
+
+
+/* ------------------------------------------ */
+/* Navbar */
+/* ------------------------------------------ */
+#navbar {
+    background: #00aeef;
+    color: #1f2223;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #1f2223;
+}
+
+#navbar .logo {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    background-color: #0089bc;
+    color: white;
+}
+
+/* ------------------------------------------ */
+/* Showcase */
+/* ------------------------------------------ */
+#showcase {
+    background: url('../img/showcase.jpg') no-repeat center/cover;
+    height: 550px;
+}
+
+#showcase .showcase-content {
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 4em;
+    line-height: 1.3em;
+}
+
+#showcase .showcase-content p {
+    padding-bottom: 35px;
+    line-height: 1.4em;
+}
+
+#showcase a {
+    font-weight: lighter;
+}
+
+/* ------------------------------------------ */
+/* ATP Info */
+/* ------------------------------------------ */
+#atp-info {
+    padding-top: 10px;
+    height: 450px;
+}
+
+#atp-info .atp-img {
+    background: url('../img/photo-1.jpg') no-repeat center/cover;
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+#atp-info .atp-content {
+    float: right;
+    width:49%;
+    min-height: 100%;
+    text-align: center;
+    overflow: hidden;
+    padding: 50px 30px;
+}
+
+#atp-info .atp-content p {
+    padding-bottom: 30px;
+}
+
+/* ------------------------------------------ */
+/* Features */
+/* ------------------------------------------ */
+.box-1, 
+.box-2 {
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.box-1 {
+    width: 50%;
+    float: left;
+
+}
+
+.box-2 {
+    width: 49%;
+    float: right;
+}
+
+.box {
+    padding: 60px;
+    text-align: center;
+    margin-bottom: 15px;
+    width: 32.8%;
+    float: left;
+}
+
+/* ------------------------------------------ */
+/* About Info */
+/* ------------------------------------------ */
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img {
+    width: 90%;
+    display: block;
+    margin: auto;
+    border-radius: 5px; 
+}
+
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-left h1 {
+    color: #00aeef;
+    padding-bottom: 1px;
+}
+
+/* ------------------------------------------ */
+/* Players */
+/* ------------------------------------------ */
+#players {
+    height: 100%;
+    background: url('../img/test-bg.jpg') no-repeat center/cover;
+    padding-top: 70px;
+}
+
+#players h2 {
+    display: block;
+    width: 50%;
+    margin: auto;
+    background: #00aeef;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#players .player {
+    padding: 5px;
+    margin-bottom: 40px;
+    font-size: 0.9em;
+    border-radius: 10px;
+    opacity: 0.9;
+    background: white;
+}
+
+#players .player img {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+/* ------------------------------------------ */
+/* Contact Form */
+/* ------------------------------------------ */
+#contact-form h1 {
+    padding-top: 20px;
+}
+
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #00aeef; 
+}
+
+#contact-form textarea {
+    height: 200px;
+}
+
+#contact-form button {
+    margin-bottom: 10px;
+}
+
+/* ------------------------------------------ */
+/* Footer */
+/* ------------------------------------------ */
+#main-footer {
+    text-align: center;
+    background-color: #1f2223;
+    color: #00aeef;
+    padding: 20px;
+}
+
